@@ -1,0 +1,17 @@
+node_modules/
+.vscode/
+vendor/
+download/
+data/
+
+*.db
+webtemplate
+webtemplate.exe*
+webtemplate.js
+
+Gopkg.*
+yarn.*
+
+DEBUG
+
+
