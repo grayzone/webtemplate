@@ -2,7 +2,7 @@
   "name": "webtemplate",
   "version": "1.0.0",
   "description": "",
-  "main": "webtemplate.js",
+  "main": "pack.js",
   "scripts": {
     "build": "webpack -d -w -p --progress --colors",
     "start": "bee run",

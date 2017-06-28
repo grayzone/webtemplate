@@ -6,7 +6,7 @@ var config = {
     app: path.resolve(__dirname, 'jsx/main.jsx')
   },
   output: {
-    filename: 'webtemplate.js',
+    filename: 'pack.js',
     path: path.resolve(__dirname, 'static/dist')
   },
   resolve: {
