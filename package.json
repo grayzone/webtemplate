@@ -2,9 +2,9 @@
   "name": "webtemplate",
   "version": "1.0.0",
   "description": "",
-  "main": "pack.js",
   "scripts": {
-    "build": "webpack -d -w -p --progress --colors",
+    "build": "webpack -d -w -p --env=dev --progress --profile --colors",
+    "build:prod": "webpack --env=prod --progress --profile --colors",
     "start": "bee run",
     "init": "go get -u -v github.com/golang/dep/... && dep init && yarn install",
     "update": "go get -u -v github.com/golang/dep/... && dep ensure -update -v && yarn upgrade",

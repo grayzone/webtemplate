@@ -7,7 +7,7 @@ data/
 *.db
 webtemplate
 webtemplate.exe*
-pack.js
+bundle.js
 
 Gopkg.*
 yarn.*
