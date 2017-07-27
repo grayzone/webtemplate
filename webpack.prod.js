@@ -4,7 +4,7 @@ var node_modules_dir = path.join(__dirname, "node_modules");
 
 module.exports = {
   entry: {
-    app: path.resolve(__dirname, "jsx/main.jsx")
+    app: path.resolve(__dirname, "src/index.js")
   },
   output: {
     filename: "bundle.js",

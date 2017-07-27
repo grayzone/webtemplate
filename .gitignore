@@ -3,11 +3,11 @@ node_modules/
 vendor/
 download/
 data/
+static/dist/
 
 *.db
 webtemplate
 webtemplate.exe*
-bundle.js
 
 Gopkg.*
 yarn.*

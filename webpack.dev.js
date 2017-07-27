@@ -5,7 +5,7 @@ var node_modules_dir = path.join(__dirname, "node_modules");
 module.exports = {
   devtool: "cheap-module-source-map",
   entry: {
-    app: path.resolve(__dirname, "jsx/main.jsx")
+    app: path.resolve(__dirname, "src/index.js")
   },
   output: {
     filename: "bundle.js",
@@ -48,10 +48,10 @@ module.exports = {
   },
   devServer: {
     port: 7777,
-    host: 'localhost',
+    host: "localhost",
     historyApiFallback: true,
     noInfo: false,
-    stats: 'minimal',
-//    publicPath: publicPath
+    stats: "minimal"
+    //    publicPath: publicPath
   }
 };

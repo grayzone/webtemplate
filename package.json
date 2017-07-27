@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "webpack -d -w -p --env=dev --progress --profile --colors",
+    "build": "webpack -d -w -p --env=dev --progress --colors --devtool source-map",
     "build:prod": "webpack --env=prod --progress --profile --colors",
     "start": "bee run",
     "init": "go get -u -v github.com/golang/dep/... && dep init && yarn install",
